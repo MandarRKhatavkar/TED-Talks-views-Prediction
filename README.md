@@ -1,2 +1,3 @@
 # TED-Talks-views-Prediction
-Making a Machine learning model which can predict views of TED talks shows
+## PROBLEM STATEMENT
+Our objective is to predict the views of a TED talk uploaded on the TEDx website. 
