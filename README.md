@@ -1,16 +1,16 @@
 <h1 align='center'>TEDTalks_Views_Prediction_Regression</h1>
 <img align='center' height=400 src='https://media.giphy.com/media/eHR8ZtcloaFheQpKKk/giphy.gif'>
-<h2> Problem Statement:</h2>
+<h2> 💻 Problem Statement:</h2>
 
 TED is devoted to spreading powerful ideas on just about any topic. These datasets contain over 4,000 TED talks including transcripts in many languages
 Founded in 1984 by Richard Salman as a nonprofit organization that aimed at bringing experts from the fields of Technology, Entertainment, and Design together.
 TED Conferences have gone on to become the Mecca of ideas from virtually all walks of life. As of 2015, TED and its sister TEDx chapters have published more than 2000 talks for free consumption by the masses and its speaker list boasts of the likes of Al Gore, Jimmy Wales, Shahrukh Khan, and Bill Gates.
 
-## Objective: 
+## 💻 Objective: 
 To build a predictive model, which could help in predicting the views of the videos uploaded on the TEDx website.
 
 
-## Dataset Information
+##💻 Dataset Information
 
 * Number of observations: 4,005
 * Number of features: 19
@@ -38,10 +38,10 @@ The dataset contains features like:
 * description: Description of the talk
 * transcript: Full transcript of the talk
 
-## Target Variable
+## 💻 Target Variable
 * 'views': Count of views
 
-<h2>Feature Engineering</h2>
+<h2>💻 Feature Engineering</h2>
 Features like all_speakers, occupations, about_speakers are first filled with with a
 value as ‘most frequent’ where Nan was present. After that, these features are
 converted to a dictionary representation from a string of dictionary representation
@@ -56,7 +56,7 @@ We created these following features:<br>
 * total_topics : number of topic covered in a talk
 * occupation_count : number of occupations of speaker
 
-<h2>Conclusion</h2>
+<h2>💻 Conclusion</h2>
 The main objective was to build a predictive model, which could help in
 predicting the views of the videos uploaded on the TEDx website.
 Performed Exploratory data analysis on various features, then carried out feature
