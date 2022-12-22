@@ -40,6 +40,22 @@ The dataset contains features like:
 
 ## Target Variable
 * 'views': Count of views
+
+<h2>Feature Engineering</h2>
+Features like all_speakers, occupations, about_speakers are first filled with with a
+value as ‘most frequent’ where Nan was present. After that, these features are
+converted to a dictionary representation from a string of dictionary representation
+and counted the element so we can create numerical features
+In this stage we created new numerical features from categorical feature data.
+
+We created these following features:<br>
+
+* total_available_lang : number of available languages for video
+* total_related_talks : number of related talks
+* all_speakers_count : number of all speakers in the talk
+* total_topics : number of topic covered in a talk
+* occupation_count : number of occupations of speaker
+
 <h2>Conclusion</h2>
 The main objective was to build a predictive model, which could help in
 predicting the views of the videos uploaded on the TEDx website.
