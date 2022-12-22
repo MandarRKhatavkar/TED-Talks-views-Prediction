@@ -6,16 +6,16 @@ TED is devoted to spreading powerful ideas on just about any topic. These datase
 Founded in 1984 by Richard Salman as a nonprofit organization that aimed at bringing experts from the fields of Technology, Entertainment, and Design together.
 TED Conferences have gone on to become the Mecca of ideas from virtually all walks of life. As of 2015, TED and its sister TEDx chapters have published more than 2000 talks for free consumption by the masses and its speaker list boasts of the likes of Al Gore, Jimmy Wales, Shahrukh Khan, and Bill Gates.
 
-## 💻 Objective: 
+<h2>💻 Objective:</h2>
 To build a predictive model, which could help in predicting the views of the videos uploaded on the TEDx website.
 
 
-##💻 Dataset Information
+<h2>💻 Dataset Information</h2>
 
 * Number of observations: 4,005
 * Number of features: 19
 
-## Features information:
+<h2>💻 Features information:</h2>
 The dataset contains features like:
 
 
@@ -38,7 +38,7 @@ The dataset contains features like:
 * description: Description of the talk
 * transcript: Full transcript of the talk
 
-## 💻 Target Variable
+<h2>💻 Target Variable</h2>
 * 'views': Count of views
 
 <h2>💻 Feature Engineering</h2>
@@ -57,12 +57,12 @@ We created these following features:<br>
 * occupation_count : number of occupations of speaker
 
 <h2>💻 Conclusion</h2>
-The main objective was to build a predictive model, which could help in
+<p>The main objective was to build a predictive model, which could help in
 predicting the views of the videos uploaded on the TEDx website.
 Performed Exploratory data analysis on various features, then carried out feature
 engineering and encoding of categorical columns, handled missing values in the
 dataset then carried out feature selection and build various models.
-
+</p>
 
 Following models have been used:
 
